@@ -1,0 +1,4 @@
+#!/bin/bash
+PY_FILE=$PYFILE
+python -m py_compile "$PY_FILE"
+PYC_FILE="$(PY_FILE)c"
