@@ -2,3 +2,5 @@
 PY_FILE=$PYFILE
 python -m py_compile "$PY_FILE"
 PYC_FILE="$(PY_FILE)c"
+echo "Compiling $PY_FILE ..."
+echo "Compiling file: $PYC_FILE"
