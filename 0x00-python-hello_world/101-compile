@@ -1,7 +1,4 @@
 #!/bin/bash
 PY_FILE=$PYFILE
 python3 -m py_compile "$PY_FILE"
-PYC_FILE="${PY_FILE}c"
-echo "Compiling $PY_FILE ..."
-echo "Compiling file: $PYC_FILE"
-mv "__pycache__/$PYC_FILE" .
+echo "Compiling $PYC_FILE ..."
