@@ -1,7 +1,7 @@
 # Python Is Awsome
 
 ****The Zen of Python, by Tim Peters****
-``` sh
+```
 Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
